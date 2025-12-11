@@ -1,0 +1,201 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\services\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\loginsystem-backend\\loginsystem\\loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{673a989b-a429-376c-a584-d56b20ce6e41}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "LoginSystem\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Properties\\launchSettings.json",
+              "RelativeToolTip": "LoginSystem\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T16:37:54.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SendEmail.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\SendEmail.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Services\\SendEmail.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\SendEmail.cs",
+              "RelativeToolTip": "LoginSystem\\Services\\SendEmail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T20:11:29.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LoginSystem\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAWwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T06:00:31.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Program.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Program.cs",
+              "RelativeToolTip": "LoginSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T06:27:40.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Services\\TokenService.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\TokenService.cs",
+              "RelativeToolTip": "LoginSystem\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T09:05:45.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Models\\UserModel.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Models\\UserModel.cs",
+              "RelativeToolTip": "LoginSystem\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T05:17:39.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MongoDbService.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\MongoDbService.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Services\\MongoDbService.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\MongoDbService.cs",
+              "RelativeToolTip": "LoginSystem\\Services\\MongoDbService.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T06:20:05.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMongoDbService.cs",
+              "DocumentMoniker": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\IMongoDbService.cs",
+              "RelativeDocumentMoniker": "LoginSystem\\Services\\IMongoDbService.cs",
+              "ToolTip": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\Services\\IMongoDbService.cs",
+              "RelativeToolTip": "LoginSystem\\Services\\IMongoDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T06:19:53.366Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 717,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
