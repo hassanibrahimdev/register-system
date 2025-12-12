@@ -226,7 +226,7 @@ namespace LoginSystem.Controllers
             }
             try
             {
-                await _mongoDbService.forgetPassword(forgetPasswordDTO.Email.Trim(), forgetPasswordDTO.Password.Trim());
+                await _mongoDbService.ForgetPassword(forgetPasswordDTO.Email.Trim(), forgetPasswordDTO.Password.Trim());
                 _cache.Remove(forgetPasswordDTO.Email.Trim());
                 return Results.Ok("password changed successfully");
             }
@@ -234,14 +234,34 @@ namespace LoginSystem.Controllers
             {
                 return Results.BadRequest("Something went wrong!!!");
             }
-
         }
 
 
 
 
 
-
-
+        [HttpDelete("deleteuser")]
+        [Authorize]
+        public async Task<IResult> DeleteUser()
+        {
+            string id = User.FindFirst("id")?.Value ?? "";
+            if (id == null)
+            {
+                return Results.BadRequest("user not found");
+            }
+            ObjectId oid = ObjectId.Parse(id);
+            try
+            {
+                await _mongoDbService.DeleteUser(oid);
+                return Results.Ok();
+            }
+            catch (MongoWriteException)
+            {
+                return Results.BadRequest("something went wrong!!");
+            }
+        }
     }
+
+
 }
+

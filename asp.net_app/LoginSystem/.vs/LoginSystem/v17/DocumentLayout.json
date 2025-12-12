@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\mongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\imongodbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\services\\sendemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|solutionrelative:loginsystem\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B69C455-CADB-4D82-8858-0EA397843323}|LoginSystem\\LoginSystem.csproj|c:\\registration-system\\asp.net_app\\loginsystem\\loginsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,20 +80,20 @@
               "RelativeDocumentMoniker": "LoginSystem\\Controllers\\UserController.cs",
               "ToolTip": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Controllers\\UserController.cs",
               "RelativeToolTip": "LoginSystem\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAQwN0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAwPgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T06:00:31.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IMongoDbService.cs",
               "DocumentMoniker": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\IMongoDbService.cs",
               "RelativeDocumentMoniker": "LoginSystem\\Services\\IMongoDbService.cs",
               "ToolTip": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\IMongoDbService.cs",
               "RelativeToolTip": "LoginSystem\\Services\\IMongoDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T06:19:53.366Z",
               "EditorCaption": ""
@@ -112,18 +108,17 @@
               "RelativeToolTip": "LoginSystem\\Services\\SendEmail.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-10T20:11:29.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-10T20:11:29.127Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MongoDbService.cs",
               "DocumentMoniker": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\MongoDbService.cs",
               "RelativeDocumentMoniker": "LoginSystem\\Services\\MongoDbService.cs",
               "ToolTip": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\MongoDbService.cs",
               "RelativeToolTip": "LoginSystem\\Services\\MongoDbService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAqwE4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAmwFsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T06:20:05.024Z",
               "EditorCaption": ""
@@ -131,18 +126,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "LoginSystem\\Services\\TokenService.cs",
-              "ToolTip": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Services\\TokenService.cs",
-              "RelativeToolTip": "LoginSystem\\Services\\TokenService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T09:05:45.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\Program.cs",
               "RelativeDocumentMoniker": "LoginSystem\\Program.cs",
@@ -162,8 +145,7 @@
               "RelativeToolTip": "LoginSystem\\DTO\\LoginDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T07:25:43.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T07:25:43.648Z"
             },
             {
               "$type": "Document",
@@ -175,8 +157,7 @@
               "RelativeToolTip": "LoginSystem\\Models\\UserModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T05:17:39.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T05:17:39.873Z"
             }
           ]
         },

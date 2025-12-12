@@ -1,4 +1,6 @@
+import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:login_system/models/user_model.dart';
 import 'package:login_system/pages/profile_page/cubit/profile_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -23,10 +25,33 @@ class ProfileCubit extends Cubit<ProfileState> {
       emit(ProfileFailure());
     }
   }
+
   Future<void> logout() async {
     emit(ProfileLoading());
     SharedPreferences prefs = await SharedPreferences.getInstance();
     await prefs.clear();
+    emit(ProfileFailure());
+  }
+
+  Future<void> deleteProfile() async {
+    emit(ProfileLoading());
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? token = prefs.getString("token");
+    final Dio dio = Dio(
+      BaseOptions(
+        baseUrl: dotenv.get("connHost"),
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer $token",
+        },
+      ),
+    );
+    final response = await dio.delete("User/deleteuser");
+    if (response.statusCode == 200) {
+      await prefs.clear();
+      emit(ProfileDelete());
+      return;
+    }
     emit(ProfileFailure());
   }
 }

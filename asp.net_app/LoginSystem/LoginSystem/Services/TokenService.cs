@@ -24,7 +24,7 @@ namespace LoginSystem.Services
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             // 4. Add claims to identify the user
             var claims = new[]{
-                new Claim(ClaimTypes.Name, id),
+                new Claim("id", id),
                  new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())};
             // 5. Create the JWT object
             var token = new JwtSecurityToken(

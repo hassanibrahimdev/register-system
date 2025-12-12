@@ -34,6 +34,13 @@ class _ProfilePageState extends State<ProfilePage> {
             (route) => false,
           );
         }
+        if(state is ProfileDelete){
+          Navigator.pushNamedAndRemoveUntil(
+            context,
+            "/login",
+            (route) => false,
+          );
+        }
       },
       child: Scaffold(
         appBar: AppBar(title: Text("Profile")),
@@ -94,7 +101,9 @@ class _ProfilePageState extends State<ProfilePage> {
               ),
               SizedBox(height: _deviceInfo.height() * 0.02),
               MaterialButton(
-                onPressed: () {},
+                onPressed: () {
+                  _profileCubit.deleteProfile();
+                },
                 color: Colors.red,
                 child: Text("Delete Account"),
               ),

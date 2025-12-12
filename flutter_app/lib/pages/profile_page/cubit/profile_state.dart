@@ -20,3 +20,5 @@ class ProfileSuccess extends ProfileState {
 }
 
 class ProfileFailure extends ProfileState {}
+
+class ProfileDelete extends ProfileState{}

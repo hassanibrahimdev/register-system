@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "LoginSystem.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/User/deleteuser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoginSystem.Controllers.UserController",
     "Method": "ForgetPassword",
     "RelativePath": "api/User/forgetpassword",
     "HttpMethod": "PUT",

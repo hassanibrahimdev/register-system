@@ -8,7 +8,7 @@ namespace LoginSystem.Services
         public Task<User> AddUser(UserModel user);
         public Task<User?> GetUser(string email, string password);
         public Task ResetPassword(ObjectId id, string password);
-
-        public Task forgetPassword(string email, string password); 
+        public Task ForgetPassword(string email, string password); 
+        public Task DeleteUser(ObjectId id);
     }
 }

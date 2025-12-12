@@ -71,7 +71,7 @@ namespace LoginSystem.Services
             return null;
         }
 
-        public async Task forgetPassword(string email, string password)
+        public async Task ForgetPassword(string email, string password)
         {
             User user = await _users.Find(u => u.Email.Equals(email.Trim())).FirstOrDefaultAsync();
             if (user == null)
@@ -80,6 +80,16 @@ namespace LoginSystem.Services
             }
             user.Password = _passwordHasher.HashPassword(user, password);
             await _users.ReplaceOneAsync(u => u.Email.Equals(email.Trim()), user);
+        }
+
+        public async Task DeleteUser(ObjectId id)
+        {
+            User user = await _users.Find(u => u.Id.Equals(id)).FirstOrDefaultAsync();
+            if (user == null)
+            {
+                return;
+            }
+            await _users.DeleteOneAsync(u => u.Id.Equals(id));
         }
     }
 }
