@@ -140,19 +140,27 @@ namespace LoginSystem.Controllers
             {
                 return Results.BadRequest("password length should be 8 and more!!!");
             }
-            User? user = await _mongoDbService.GetUser(login.Email.Trim(), login.Password.Trim());
-            if (user is null)
+            try
             {
-                return Results.BadRequest("User not found");
+                User? user = await _mongoDbService.GetUser(login.Email.Trim(), login.Password.Trim());
+                if (user is null)
+                {
+                    return Results.BadRequest("User not found");
+                }
+                string token = _tokenService.createToken(user.Id.ToString());
+                var result = new
+                {
+                    id = user.Id.ToString(),
+                    u = user,
+                    t = token
+                };
+                return Results.Ok(result);
             }
-            string token = _tokenService.createToken(user.Id.ToString());
-            var result = new
+            catch (MongoWriteException)
             {
-                id = user.Id.ToString(),
-                u = user,
-                t = token
-            };
-            return Results.Ok(result);
+                return Results.BadRequest("Something went wrong!!!");
+            }
+
         }
 
 
@@ -165,7 +173,7 @@ namespace LoginSystem.Controllers
         [Authorize]
         public async Task<IResult> ResetPassword([FromBody] ResetPasswordDTO resetPassword)
         {
-            
+
             if (resetPassword.Password.Trim().Length < 8)
             {
                 return Results.BadRequest("password length should be 8 and more!!!");
@@ -174,11 +182,60 @@ namespace LoginSystem.Controllers
             {
                 return Results.BadRequest("password and confirm password must match!!!");
             }
-           
-            await _mongoDbService.ResetPassword(ObjectId.Parse(resetPassword.Id.Trim()), resetPassword.Password.Trim());
-            return Results.Ok("password change successfully");
+
+            try
+            {
+
+                await _mongoDbService.ResetPassword(ObjectId.Parse(resetPassword.Id.Trim()), resetPassword.Password.Trim());
+                return Results.Ok("password change successfully");
+            }
+            catch (MongoWriteException)
+            {
+                return Results.BadRequest("Something went wrong!!!");
+            }
         }
 
+
+
+
+
+
+
+        [HttpPut("forgetpassword")]
+        public async Task<IResult> ForgetPassword([FromBody] ForgetPasswordDTO forgetPasswordDTO)
+        {
+            if (forgetPasswordDTO.Password.Trim().Length < 8)
+            {
+                return Results.BadRequest("Password length must be greater than 7");
+            }
+            if (forgetPasswordDTO.Password.Trim() != forgetPasswordDTO.ConfirmPassword.Trim())
+            {
+                return Results.BadRequest("Password and confirm password must be the same!!");
+            }
+            if (!forgetPasswordDTO.Email.Trim().EndsWith("@gmail.com"))
+            {
+                return Results.BadRequest("email must end with '@gmail.com'");
+            }
+            if (!_cache.TryGetValue<string>(forgetPasswordDTO.Email.Trim(), out var cachedCode))
+            {
+                return Results.BadRequest("Verify code is incorrect or expired");
+            }
+            if (forgetPasswordDTO.VerifyCode.Trim() != cachedCode)
+            {
+                return Results.BadRequest("Verify code is incorrect!!");
+            }
+            try
+            {
+                await _mongoDbService.forgetPassword(forgetPasswordDTO.Email.Trim(), forgetPasswordDTO.Password.Trim());
+                _cache.Remove(forgetPasswordDTO.Email.Trim());
+                return Results.Ok("password changed successfully");
+            }
+            catch (MongoWriteException)
+            {
+                return Results.BadRequest("Something went wrong!!!");
+            }
+
+        }
 
 
 

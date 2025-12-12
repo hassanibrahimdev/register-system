@@ -55,8 +55,6 @@ namespace LoginSystem.Services
 
 
 
-
-
         public async Task<User?> GetUser(string email, string password)
         {
 
@@ -71,6 +69,17 @@ namespace LoginSystem.Services
                 return user;
             }
             return null;
+        }
+
+        public async Task forgetPassword(string email, string password)
+        {
+            User user = await _users.Find(u => u.Email.Equals(email.Trim())).FirstOrDefaultAsync();
+            if (user == null)
+            {
+                return;
+            }
+            user.Password = _passwordHasher.HashPassword(user, password);
+            await _users.ReplaceOneAsync(u => u.Email.Equals(email.Trim()), user);
         }
     }
 }

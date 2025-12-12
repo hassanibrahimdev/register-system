@@ -9,5 +9,6 @@ namespace LoginSystem.Services
         public Task<User?> GetUser(string email, string password);
         public Task ResetPassword(ObjectId id, string password);
 
+        public Task forgetPassword(string email, string password); 
     }
 }

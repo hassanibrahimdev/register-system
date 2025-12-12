@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u5Gcnkrm9LA=",
+  "dgSpecHash": "90OYqdbaQbE=",
   "success": true,
-  "projectFilePath": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
+  "projectFilePath": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hassan\\.nuget\\packages\\bouncycastle.cryptography\\2.6.1\\bouncycastle.cryptography.2.6.1.nupkg.sha512",
     "C:\\Users\\hassan\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

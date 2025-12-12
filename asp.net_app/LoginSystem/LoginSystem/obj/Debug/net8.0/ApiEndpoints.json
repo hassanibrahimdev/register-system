@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "LoginSystem.Controllers.UserController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/User/forgetpassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPasswordDTO",
+        "Type": "LoginSystem.DTO.ForgetPasswordDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LoginSystem.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/User/login",
     "HttpMethod": "POST",

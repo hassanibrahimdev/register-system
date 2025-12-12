@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\LoginSystem.csproj": {}
+    "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\LoginSystem.csproj": {}
   },
   "projects": {
-    "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\LoginSystem.csproj": {
+    "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\LoginSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
+        "projectUniqueName": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
         "projectName": "LoginSystem",
-        "projectPath": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
+        "projectPath": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\LoginSystem.csproj",
         "packagesPath": "C:\\Users\\hassan\\.nuget\\packages\\",
-        "outputPath": "C:\\registration-system\\loginSystem-backend\\LoginSystem\\LoginSystem\\obj\\",
+        "outputPath": "C:\\registration-system\\asp.net_app\\LoginSystem\\LoginSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
